@@ -223,44 +223,6 @@ $(() => {
 
 
 
-$(window).on('load', () => {
-	// Элементы первого блока
-	if($(".first_section").length>0)
-	{
-		startOffsetTop = 280
-		endOffsetTop = $('.first_section .btn').offset().top
-		endOffsetLeft = $('.first_section .btn').offset().left + ($('.first_section .btn').width() * 0.25)
-		items = $('.first_section .items .item')
-		itemsOffsets = []
-		path = endOffsetTop - startOffsetTop
-
-		items.each(function () {
-			itemsOffsets.push({
-				offsetTop: $(this).offset().top,
-				offsetLeft: $(this).offset().left
-			})
-		})
-
-		$(window).on('scroll', () => {
-			// Элементы первого блока
-			if ($(window).scrollTop() > startOffsetTop && $(window).scrollTop() < endOffsetTop) {
-				let distance = $(window).scrollTop() / path - startOffsetTop / path + 50 / path
-
-				items.each(function (index) {
-					let itemPathTop = endOffsetTop - itemsOffsets[index].offsetTop,
-						itemPathLeft = endOffsetLeft - itemsOffsets[index].offsetLeft
-					$(this).css({
-						'margin-top': itemPathTop * distance + 'px',
-						'margin-left': itemPathLeft * distance + 'px'
-					})
-				})
-			}
-		})
-	}
-
-})
-
-
 
 
 $(window).scroll(function () { // Когда страница прокручивается
