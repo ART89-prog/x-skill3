@@ -1656,6 +1656,129 @@ img {
 }
 
 
+
+
+/* priece */
+
+.priece {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.priece_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.priece_list li {
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #4B4B4B;
+}
+.callback_btn {
+    background: #BCE01A;
+    border-radius: 80px;   
+    padding: 35px 45px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #54640D;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+
+
+
+
+
+/* stages */
+
+.stages {
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+.stages .cont {
+    display: flex;
+    justify-content: space-between;
+}
+.stages .block_head {
+    max-width: 600px;
+    width: 100%;
+}
+.stages .block_head .title {
+    max-width: 487px;
+    width: 100%;
+    line-height: 110%;
+}
+.stages .callback_btn {
+    max-width: 339px;
+    width: 100%;
+}
+.stages_items {
+    margin-left: 107px;
+}
+.stages_item {
+    display: flex;
+    align-items: center;
+}
+.stages_item-number {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 180%;
+    text-align: center;
+    color: #BCE01A;
+    margin-right: 29px;
+    padding-left: 47px;
+    position: relative;
+}
+.stages_item-number::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #BCE01A;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+.stages_item-number::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: #BCE01A;
+    top: 50%;
+    left: 10px;
+}
+.stages_item:last-child .stages_item-number::after {
+    display: none;
+}
+.stages_item-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #4B4B4B;
+}
+.stages_item-text {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    color: #696984;
+}
+.stages_item-text span {
+    color: #16A3B9;
+    font-weight: 700;
+}
+
+
+
 /*------------
     Footer
 ------------*/
