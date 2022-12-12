@@ -527,6 +527,7 @@
         overflow-x: auto;
         -ms-overflow-style: none;
         scrollbar-width: none;
+        padding-bottom: 70px;
     }
     .course_items::-webkit-scrollbar {
         width: 0;
@@ -586,7 +587,7 @@
         margin-left: -15px;
     }
     .course_item-date span {
-        font-size: 15px;
+        font-size: 17px;
         margin-left: 7px;
     }
     .course .callback_btn {
@@ -602,6 +603,7 @@
     }
     .course_item-date {
         margin-top: 10px;
+        line-height: 1.15;
     }
 
     .stages .block_head .title {
@@ -648,6 +650,10 @@
     .methods {
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    .course {
+        padding-bottom: 0;
     }
 
 

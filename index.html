@@ -43,6 +43,7 @@
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
 	</head>
 
 	<body>
@@ -97,7 +98,7 @@
 							</div>
 
 							<div class="menu_item">
-								<a href="/" class="btn">Задать вопрос</a>
+								<a class="btn modal_btn" data-fancybox data-src="#modal" href="#">Задать вопрос</a>
 							</div>
 						</nav>
 
@@ -413,7 +414,7 @@
 											</li>
 											<li>
 												<svg class="icon"><use xlink:href="images/sprite.svg#ic_check2"></use></svg>
-												<span><b>Сфокусировать сотрудников на продажах и распространить лучшие практики по всему отделу</span>									
+												<span><b>Сфокусировать сотрудников,</b> на продажах и <b>распространить лучшие практики</b> по всему отделу</span>									
 											</li>
 											<li>
 												<svg class="icon"><use xlink:href="images/sprite.svg#ic_check2"></use></svg>
@@ -751,7 +752,28 @@
 					<div class="copyright">&copy; 2022 Все права защищены. XSkill.com</div>
 				</div>
 			</footer>
+
+
+			<section class="modal" style="display: none;" id="modal">
+				<div class="modal_title">Задать вопрос</div>
+				<form class="callback_form">
+					<div class="line">
+						<div class="field">
+							<input type="text" placeholder="Ваше имя">
+						</div>
+					</div>	
+					<div class="line">
+						<div class="field">
+							<input type="tel" placeholder="Ваш Телефон">
+						</div>
+					</div>	
+					<button type="submit">Оставить заявку</button>				
+				</form>	
+			</section>
 		</div>
+
+
+
 
 
 		<div class="supports_error">
@@ -765,6 +787,7 @@
 		<script src="https://unpkg.com/scrollama"></script>
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script src="js/jquery.spincrement.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.5/mobile-detect.min.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>

@@ -242,11 +242,11 @@
 
 
     .benefits_section-img {
-        width: 100%;
+        width: 390px;
     }
     .benefits_section-img .bg {
-        width: 100%;
-        height: auto;
+        width: 496px;
+        height: 370px;
     }
 
 
@@ -386,6 +386,10 @@
         padding-bottom: 40px;
     }
 
+    .course {
+        padding-bottom: 0;
+    }
+
 
     .modes_item .icon {
         width: 50px;
@@ -397,6 +401,7 @@
         font-size: 20px;
         line-height: 25px;
     }
+
 
  
     /*------------

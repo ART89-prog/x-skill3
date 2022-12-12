@@ -153,22 +153,43 @@ $(() => {
 	}
 
 
-	// Аккордион
-	$('body').on('click', '.accordion .accordion_item .head', function (e) {
+	// Fancybox
+	Fancybox.defaults.autoFocus = false
+	Fancybox.defaults.trapFocus = false
+	Fancybox.defaults.dragToClose = false
+	Fancybox.defaults.placeFocusBack = false
+	Fancybox.defaults.l10n = {
+		CLOSE: "Закрыть",
+		NEXT: "Следующий",
+		PREV: "Предыдущий",
+		MODAL: "Вы можете закрыть это модальное окно нажав клавишу ESC"
+	}
+
+	Fancybox.defaults.template = {
+		closeButton: '<svg><use xlink:href="images/sprite.svg#ic_close"></use></svg>',
+		spinner: '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="25 25 50 50" tabindex="-1"><circle cx="50" cy="50" r="20"/></svg>',
+		main: null
+	}
+
+	// Всплывающие окна
+	$('body').on('click', '.modal_btn', function (e) {
 		e.preventDefault()
 
-		const $item = $(this).closest('.accordion_item'),
-			$accordion = $(this).closest('.accordion')
+		Fancybox.close()
 
-		if ($item.hasClass('active')) {
-			$item.removeClass('active').find('.data').slideUp(300)
-		} else {
-			$accordion.find('.accordion_item').removeClass('active')
-			$accordion.find('.data').slideUp(300)
-
-			$item.addClass('active').find('.data').slideDown(300)
-		}
+		Fancybox.show([{
+			src: $(this).data('modal'),
+			type: 'inline'
+		}])
 	})
+
+	$('body').on('click', '.modal .close_btn', function (e) {
+		e.preventDefault()
+
+		Fancybox.close()
+	})
+
+
 
 
 	if (is_touch_device()) {
