@@ -506,6 +506,8 @@
     }
 
 
+
+
     .callback_btn {
         padding: 20px 45px;
     }
@@ -640,6 +642,7 @@
     .price,
     .stages,
     .callback,
+    .demonstration,
     .course,
     .invitation,
     .methods {

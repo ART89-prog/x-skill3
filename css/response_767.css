@@ -330,6 +330,12 @@
         width: 40px;
         height: 40px;
     }
+
+
+    .modes_item-title {
+        font-size: 20px;
+        line-height: 25px;
+    }
     
 
 
@@ -372,6 +378,7 @@
     .price,
     .stages,
     .callback,
+    .demonstration,
     .course,
     .invitation,
     .methods {
