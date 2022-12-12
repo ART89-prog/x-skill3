@@ -27,6 +27,8 @@
 		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
 		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+		
 		<link rel="stylesheet" href="css/styles.css" async>
 
 		<link rel="stylesheet" href="css/response_1649.css" media="print, (max-width: 1649px)" async>
@@ -43,7 +45,7 @@
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+		
 	</head>
 
 	<body>
@@ -98,7 +100,7 @@
 							</div>
 
 							<div class="menu_item">
-								<a class="btn modal_btn" data-fancybox data-src="#modal" href="#">Задать вопрос</a>
+								<a class="btn modal_btn" data-modal="#modal" href="#">Задать вопрос</a>
 							</div>
 						</nav>
 
@@ -514,7 +516,7 @@
 								<span>Дополнительные скидки на период внедрения</span>		
 							</li>
 						</ul>
-						<a href="#" class="callback_btn">
+						<a href="#" class="callback_btn modal_btn" data-modal="#modal">
 							<span>Оставить заявку</span>
 						</a>
 					</div>
@@ -527,7 +529,7 @@
 						<div class="block_head">
 							<div class="title">Этапы <span>внедрения тренажера</span> в работу ваших сотрудников</div>
 							<div class="desc">Система работает на базе искусственного интеллекта. Нейросеть анализирует ответы, ищет расхождения, <span>дает подсказки, обратную связь и автоматически собирает лучшие практики</span></div>
-							<a href="#" class="callback_btn">
+							<a href="#" class="callback_btn modal_btn" data-modal="#modal">
 								<span>Оставить заявку</span>
 							</a>
 						</div>	
@@ -683,7 +685,7 @@
 									<span>Гибкий, индивидуальный подход к каждому партнеру</span>									
 								</li>
 							</ul>
-							<a href="#" class="callback_btn">
+							<a href="#" class="callback_btn modal_btn" data-modal="#modal">
 								<span>Связаться с нами</span>
 							</a>
 						</div>
@@ -754,7 +756,7 @@
 			</footer>
 
 
-			<section class="modal" style="display: none;" id="modal">
+			<section class="modal" id="modal">
 				<div class="modal_title">Задать вопрос</div>
 				<form class="callback_form">
 					<div class="line">

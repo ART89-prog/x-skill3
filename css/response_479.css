@@ -165,6 +165,12 @@
     }
 
 
+    .modal,
+    .fancybox__content {
+        padding: 15px;
+    }
+
+
     
 
     /*------------
