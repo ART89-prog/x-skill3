@@ -6,6 +6,7 @@
     -------------------*/
     :root
     {
+        --font_size: 17px;
         --font_size_title: 36px;
     }
 
@@ -34,13 +35,11 @@
         display: block;
         overflow: auto;
 
-        width: calc(100% + 48px);
-        margin: 0 -24px 40px;
         padding: 8px;
 
         white-space: nowrap;
 
-        border-radius: 0;
+        border-radius: 112px;
 
         scrollbar-color: transparent transparent !important;
         scrollbar-width: thin !important;
@@ -92,55 +91,6 @@
 
         padding: 12px 32px 14px;
     }
-
-
-
-    /*---------------
-        Accordion
-    ---------------*/
-    .accordion_item
-    {
-        border-radius: 12px;
-    }
-
-    .accordion_item + .accordion_item
-    {
-        margin-top: 20px;
-    }
-
-
-    .accordion_item .head
-    {
-        padding: 16px 72px 16px 24px;
-
-        border-width: 8px;
-    }
-
-
-    .accordion_item .head .title
-    {
-        font-size: 19px;
-    }
-
-
-    .accordion_item .head .icon
-    {
-        right: 20px;
-
-        width: 13px;
-        height: 20px;
-    }
-
-
-    .accordion_item .data
-    {
-        font-size: 15px;
-        line-height: 21px;
-
-        padding: 16px 24px 24px 32px;
-    }
-
-
 
     /*------------
         Header
@@ -326,17 +276,275 @@
         First section
     -------------------*/
     
-
-
-    /*---------
-        FAQ
-    ---------*/
-    .faq
-    {
-        margin-bottom: 88px;
+    .first_section-title {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .first_section-subtitle {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .first_section-text {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+    ul li .icon {
+        width: 28px;
+        height: 28px;
+    }
+    ul li {
+        padding-left: 43px;
+    }
+    .first_section .cont {
+        flex-direction: column;
+    }
+    .first_section-info {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .first_section-title br {
+        display: none;
+    }
+    .first_section-img:not(.bg) {
+        width: 530px;
+    }
+    .first_section-img .bg {
+        width: 530px;
+        height: 480px;
+    }
+    .first_section {
+        padding: 115px 0 60px;
     }
 
 
+
+    .advantages_item-title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 8px;
+    }
+    .advantages_item {
+        padding: 20px;
+    }
+    .advantages_item-info {
+        margin-left: 15px;
+        margin-top: 0;
+    }
+    .advantages_items > * {
+        width: calc(100%/2 - 15px);
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .advantages_items {
+        margin-left: -15px;
+        margin-bottom: -15px;
+    }
+
+
+    .demonstration_items > * {
+        width: 350px;
+        flex-shrink: 0;
+    }
+    .demonstration_items {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .demonstration_items::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+        display: none;
+    }
+    .demonstration_item-title {
+        margin-bottom: 7px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+   
+
+    .why_items > * {
+        padding: 20px;
+        flex-direction: column;
+        width: calc(100%/3 - 15px);
+        margin-left: 15px;
+        margin-bottom: 15px;    
+    }
+    .why_items {
+        margin-left: -15px;
+        margin-bottom: -15px;    
+    }
+    .why_item_text {
+        font-size: 18px;
+    }
+    .why_item_title {
+        margin-right: 0;
+        font-size: 65px;
+    }
+
+
+    .lessons_wrap {
+        flex-direction: column-reverse;
+    }
+    .lessons_img {
+        width: 100%;
+    }
+    .lessons_img .bg {
+        width: 100%;
+        height: auto;
+    }
+    .lessons_items {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .lessons_item-title {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 7px;
+    }
+    .lessons_item {
+        flex-direction: column;
+    }
+    .lessons_item-info {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .lessons_item .icon {
+        margin: 0 auto;
+    }
+
+
+    .tab_content {
+        flex-direction: column;
+    }
+    .benefits_section-img {
+        margin-top: 90px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .benefits_section-img .bg {
+        width: 547px;
+        height: 471px;
+    }
+    .benefits_list {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .benefits_info-title br {
+        display: none;
+    }
+    
+
+    .stages .cont {
+        flex-direction: column;
+    }
+    .stages .block_head {
+        max-width: 100%;
+    }
+    .stages_items {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .stages_item-number {
+        font-weight: 700;
+        font-size: 45px;
+        margin-right: 15px;
+        padding-left: 30px;
+    }
+
+    .callback .block_head .desc {
+        font-size: 20px;
+    }
+    .callback_wrap {
+        padding: 30px;
+    }
+    .callback_logo {
+        right: 30px;
+        top: 30px;
+    }
+
+
+
+    .modes_item {
+        flex-direction: column;
+    }
+    .modes_item-left {
+        padding-right: 0px;
+        padding-bottom: 15px;
+        min-width: 100%;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .modes_item-left:before {
+        position: absolute;
+        content: "";
+        height: 1px;
+        width: calc(100% + 40px);
+        background: #C6C6C6;
+        top: 100%;        
+        right: -20px;
+        z-index: 5;
+    }
+
+
+    .callback_btn {
+        padding: 20px 45px;
+    }
+    
+
+    .course_items > * {
+        width: 530px;
+        flex-shrink: 0;
+    }
+    .course_items {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .course_items::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+        display: none;
+    }
+    .course_item-info {
+        padding: 20px;
+    }
+    .course_item-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .course_item-text:after {
+        width: calc(100% + 40px);
+        left: -20px;
+    }
+
+
+
+    .methods_items > * {
+        width: 530px;
+        flex-shrink: 0;
+    }
+    .methods_items {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .methods_items::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+        display: none;
+    }
+    .methods_item-info {
+        padding: 20px;
+    }
+    .methods_item-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
    
 
 

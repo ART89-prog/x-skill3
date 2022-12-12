@@ -6,8 +6,8 @@
     -------------------*/
     :root
     {
-        --font_size: 15px;
-        --font_size_title: 40px;
+        --font_size: 19px;
+        --font_size_title: 38px;
     }
 
 
@@ -79,47 +79,6 @@
         padding: 16px 36px 18px;
     }
 
-
-
-    /*---------------
-        Accordion
-    ---------------*/
-    .accordion_item + .accordion_item
-    {
-        margin-top: 24px;
-    }
-
-
-    .accordion_item .head
-    {
-        padding: 20px 80px 20px 28px;
-
-        border-width: 10px;
-    }
-
-
-    .accordion_item .head .title
-    {
-        font-size: 20px;
-    }
-
-
-    .accordion_item .head .icon
-    {
-        right: 20px;
-
-        width: 13px;
-        height: 20px;
-    }
-
-
-    .accordion_item .data
-    {
-        font-size: 16px;
-        line-height: 22px;
-
-        padding: 16px 28px 28px 38px;
-    }
 
 
 
@@ -215,28 +174,162 @@
     /*-------------------
         First section
     -------------------*/
- 
 
+    .first_section {
+        padding: 150px 0 70px;
+    }
+    .first_section-img:not(.bg) {
+        width: 400px;
+        margin-top: 0;
+    }
+    .first_section-img .bg {
+        width: 400px;
+        height: 380px;
+    }
+    .first_section-info {
+        width: calc(100% - 438px);
+    }
+    .first_section-title {
+        font-size: 42px;
+        margin-bottom: 13px;
+    }
+    .first_section-subtitle {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .first_section-text {
+        font-size: 21px;
+        margin-bottom: 17px;
+    }
+    .first_section .cont {
+        align-items: center;
+    }
 
-
-    /*---------
-        FAQ
-    ---------*/
-    .faq
-    {
-        margin-bottom: 100px;
+    ul li {
+        margin-bottom: 15px;
     }
 
 
-    .faq .block_head
-    {
-        margin-bottom: 48px;
+    .demonstration_item-info {
+        padding: 18px;
+    }
+    .demonstration_item-title {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    .lessons_img {
+        width: 410px;
+    }
+    .lessons_img .bg {
+        width: 410px;
+        height: 320px;
+    }
+    .lessons_items {
+        width: calc(100% - 430px);
+    }
+
+
+    .avail_items-box > * {
+        margin-left: 15px;
+        padding: 20px;
+    }
+    .avail_items-box {
+        margin-left: -15px;
+    }
+    .avail_items-top .avail_item:nth-child(1) {
+        width: calc(100% - 450px);
+    }
+    .avail_items-top .avail_item:nth-child(2) {
+        width: 420px;
+    }
+    .avail_items-bottom .avail_item:nth-child(1) {
+         width: 420px;
+    }
+    .avail_items-bottom .avail_item:nth-child(2) {
+       width: calc(100% - 450px);
+    }
+    .avail_items-top {
+        margin-bottom: 15px;
+    }
+    .avail_item-title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 9px;
     }
 
 
 
+    .benefits_section-img {
+        margin-top: 130px;
+        width: 500px;
+        margin-left: 0;
+    }
+    .benefits_section-img img {
+        width: 100%;
+    }
+    .benefits_section-img .bg {
+        width: 453px;
+        height: 313px;
+    }
+    .benefits_list {
+        margin-left: 90px;
+        width: calc(100% - 190px);
+    }
+    .benefits_info-title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
 
-   
+
+    .stages .block_head {
+        max-width: 400px;
+        width: 100%;
+        margin-top: 0;
+    }
+    .stages_item-title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .stages_item-text {
+        font-size: 19px;
+    }
+
+
+    .callback_form .line {
+        flex-direction: column;
+    }
+    .callback_form .line .field input {
+        width: 680px;
+    }
+    .callback_form .line .field {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    
+
+
+    .modes_item {
+        padding: 20px;
+    }
+    .modes_item-left:before {
+        height: calc(100% + 40px);
+    }
+    .modes_item-left {
+        padding-right: 20px;
+        min-width: 360px;
+        margin-right: 15px;
+    }
+    .modes_item-title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+    .modes_item-text {
+        margin-top: 7px;
+    }
 
 
     /*------------

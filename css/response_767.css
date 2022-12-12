@@ -70,13 +70,9 @@
         display: block;
         overflow: auto;
 
-        width: calc(100% + 48px);
-        margin: 0 -24px 40px;
-        padding: 8px;
-
         white-space: nowrap;
 
-        border-radius: 0;
+        border-radius: 117px;
 
         scrollbar-color: transparent transparent !important;
         scrollbar-width: thin !important;
@@ -131,38 +127,7 @@
 
 
 
-    /*---------------
-        Accordion
-    ---------------*/
-    .accordion_item
-    {
-        border-radius: 10px;
-    }
-
-
-    .accordion_item .head
-    {
-        padding: 16px 72px 16px 20px;
-
-        border-width: 8px;
-    }
-
-
-    .accordion_item .head .title
-    {
-        font-size: 17px;
-        line-height: 23px;
-    }
-
-
-    .accordion_item .data
-    {
-        padding: 16px 24px 24px 28px;
-    }
-
-
-
-    /*------------
+   /*------------
         Header
     ------------*/
     header
@@ -235,16 +200,112 @@
     /*-------------------
         First section
     -------------------*/
-  
-
-
-    /*---------
-        FAQ
-    ---------*/
-    .faq
-    {
-        margin-bottom: 72px;
+    
+    .first_section-img:not(.bg) {
+        width: 100%;
     }
+    .first_section-img .bg {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .advantages_items > * {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .advantages_items {
+        margin-left: 0px;
+        margin-bottom: -15px;
+    }
+
+
+    .why_items > * {
+        padding: 15px;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 15px;    
+    }
+    .why_items {
+        margin-left: 0px;   
+    }
+    .why_item_text {
+        font-size: 18px;
+    }
+    .why_item_title {
+        margin-right: 0;
+        font-size: 65px;
+    }
+
+
+
+    .benefits_section-img {
+        width: 100%;
+    }
+    .benefits_section-img .bg {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .avail_items-top .avail_item:nth-child(1) {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .avail_items-top .avail_item:nth-child(2) {
+        width: 100%;
+    }
+    .avail_items-bottom .avail_item:nth-child(1) {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .avail_items-bottom .avail_item:nth-child(2) {
+        width: 100%;
+    }
+
+
+    .callback_form .line .field input {
+        width: 100%;
+    }
+    .callback_form .line .field {
+        width: 100%;
+    }
+    .callback_form .line button {
+        width: 100%;
+    }
+    .callback_wrap {
+        padding: 20px;
+    }
+    .callback_logo {
+        right: 20px;
+        top: 20px;
+        width: 140px;
+    }
+    .callback_logo img {
+        width: 100%;
+    }
+    .callback .pre_title {
+        display: none;
+    }
+    .callback .block_head .title {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    .callback .block_head {
+        margin-bottom: 25px;
+    }
+    .callback_wrap {
+        padding: 100px 20px 20px;
+    }
+    
+
+
+    .course_items > * {
+        width: 350px;
+    }
+
 
 
 

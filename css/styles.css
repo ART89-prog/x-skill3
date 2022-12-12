@@ -817,6 +817,7 @@ header .mob_menu_btn.active .icon + .icon
     letter-spacing: .02em;
 
     border-radius: 100px;
+    display: inline-block;
 }
 
 .block_head .pre_title.bg1
@@ -1124,6 +1125,9 @@ header .mob_menu_btn.active .icon + .icon
     position: relative;
     margin-top: 105px;
 }
+.first_section-img img {
+    width: 100%;
+}
 .first_section-img .bg {
     position: absolute;
     z-index: -1;
@@ -1182,6 +1186,8 @@ ul li {
     letter-spacing: 0.02em;
     color: var(--text_color);
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
 ul li span b {
     color: #16A3B9;
@@ -1707,17 +1713,23 @@ img {
 }
 .price_list li {
     margin-right: 40px;
+   
+    margin-bottom: 20px;
+}
+.price_list li span {
     font-weight: 500;
     font-size: var(--font_size);
-    line-height: 160%;
+    line-height: 40px;
     letter-spacing: 0.02em;
-    color: var(--text_color);
-    margin-bottom: 0;
+    color: var(--text_color); 
+}
+.price_list li:last-child {
+    margin-bottom: 20px;
 }
 .callback_btn {
     background: #BCE01A;
     border-radius: 80px;   
-    padding: 35px 45px;
+    padding: 35px 35px;
     text-decoration: none;
     font-weight: 500;
     font-size: var(--font_size);
@@ -1731,10 +1743,6 @@ img {
 .price .callback_btn {
     width: 271px;
 }
-
-
-
-
 
 
 /* stages */
@@ -1862,7 +1870,7 @@ img {
 }
 .callback .block_head .desc {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     font-weight: 500;
     font-size: 29.3211px;
     line-height: 116.5%;
@@ -1983,7 +1991,7 @@ img {
 .course_item-date span {
     font-weight: 400;
     font-size: 20px;
-    line-height: 180%;
+    line-height: 130%;
     color: #696984;
     display: block;
     margin-left: 10px;
@@ -1991,6 +1999,7 @@ img {
 .course_item-date .icon {
     width: 30px;
     height: 30px;
+    flex-shrink: 0;
 }
 .course_item-text {
     font-weight: 400;

@@ -5,11 +5,11 @@
     /*-------------------
         Global styles
     -------------------*/
-    :root
+    /* :root
     {
         --font_size: 16px;
         --font_size_title: 48px;
-    }
+    } */
 
 
     .cont
@@ -183,22 +183,86 @@
         First section
     -------------------*/
    
-
-
-
-    /*---------
-        FAQ
-    ---------*/
-    .faq
-    {
-        margin-bottom: 124px;
+    .first_section-img:not(.bg) {
+        width: 540px;
+        margin-top: 0;
+    }
+    .first_section-img .bg {
+        width: 540px;
+        height: 450px;
+    }
+    .first_section-info {
+        width: calc(100% - 605px);
     }
 
 
-    .faq .block_head
-    {
-        margin-bottom: 56px;
+
+    .advantages .cont {
+        flex-direction: column;
     }
+    .advantages_wrap {
+        width: 100%;
+    }
+    .advantages .block_head {
+        max-width: 100%;
+    }
+    .advantages,
+    .why,
+    .lessons,
+    .avail,
+    .benefits,
+    .modes,
+    .price,
+    .stages,
+    .callback,
+    .course,
+    .invitation,
+    .methods {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+
+    .why_items > * {
+        padding: 20px;
+        flex-direction: column;
+    }
+    .why_item_text {
+        text-align: center;
+    }
+
+
+    .lessons_img {
+        width: 530px;
+        margin-right: 0px;
+    }
+    .lessons_img .bg {
+        top: 0;
+        width: 530px;
+        height: 411px;
+    }
+    .lessons_items {
+        width: calc(100% - 560px);
+    }
+    .lessons_item-title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 7px;
+    }
+
+
+    .avail_item {
+        justify-content: flex-start;
+    }
+
+
+
+    .callback_action {
+        display: none;
+    }
+    
+
+
 
 
 

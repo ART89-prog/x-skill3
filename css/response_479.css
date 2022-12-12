@@ -19,22 +19,6 @@
     /*----------
         Tabs
     ----------*/
-    .tabs
-    {
-        display: block;
-        overflow: auto;
-
-        width: calc(100% + 48px);
-        margin: 0 -24px 40px;
-        padding: 8px;
-
-        white-space: nowrap;
-
-        border-radius: 0;
-
-        scrollbar-color: transparent transparent !important;
-        scrollbar-width: thin !important;
-    }
 
     .tabs::-webkit-scrollbar
     {
@@ -52,47 +36,16 @@
 
     .tabs button
     {
-        font-size: 16px;
-        line-height: 22px;
-
         display: inline-block;
 
         max-width: none;
         margin: 0;
-        padding: 10px 24px 12px;
-
+      
+        font-size: 15px;
+        line-height: 20px;
+        padding: 10px 9px 12px;
+        
         vertical-align: top;
-    }
-
-
-
-    /*---------------
-        Accordion
-    ---------------*/
-    .accordion_item
-    {
-        border-radius: 10px;
-    }
-
-
-    .accordion_item .head
-    {
-        padding: 16px 72px 16px 16px;
-
-        border-width: 8px;
-    }
-
-
-    .accordion_item .head .title
-    {
-        font-size: 16px;
-        line-height: 22px;
-    }
-
-
-    .accordion_item .data
-    {
-        padding: 12px 20px 20px 24px;
     }
 
 
@@ -163,7 +116,23 @@
         First section
     -------------------*/
   
+    .demonstration_items > * {
+        width: 275px;
+    }
 
+
+    .modes_item-right {
+        flex-direction: column;
+    }
+    .modes_item-img + .modes_item-img {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+
+    .course_items > * {
+        width: 280px;
+    }
 
 
 
