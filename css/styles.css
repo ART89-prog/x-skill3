@@ -2352,3 +2352,7 @@ footer .copyright
     max-width: 100%;
     width: 100%;
 }
+.modal .callback_form .line .field {
+    margin-right: 0px;
+    margin-bottom: 15px;
+}
