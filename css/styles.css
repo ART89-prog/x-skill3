@@ -1713,11 +1713,11 @@ img {
 }
 .price_list {
     display: flex;
-    flex-wrap: wrap;
+    align-items: flex-start;
 }
 .price_list li {
     margin-right: 40px;
-   
+    width: 30%;
     margin-bottom: 20px;
 }
 .price_list li span {
@@ -1762,9 +1762,8 @@ img {
     justify-content: space-between;
     align-items: flex-start;
 }
-.stages .block_head {
-    max-width: 600px;
-    width: 100%;
+.stages .block_head {    
+    width: calc(100% - 1046px);
     margin-top: 65px;
 }
 .stages .block_head .title {
@@ -1780,13 +1779,14 @@ img {
 .stages_items {
     margin-left: 56px;
     position: relative;
+    width: 990px;
 }
 .stages_item::after {
     position: absolute;
     content: "";
     width: 4px;
-    height: calc(100% + 30px);
-    top: 50%;
+    height: 130%;
+    top: 0;
     left: 8px;
     background: #BCE01A;
     overflow: hidden;
@@ -1819,9 +1819,8 @@ img {
     height: 20px;
     border-radius: 50%;
     background: #BCE01A;
-    top: 50%;
-    transform: translateY(-50%);
-    left: -0px;
+    top: 0;
+    left: 0;
 }
 
 

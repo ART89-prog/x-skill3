@@ -261,6 +261,23 @@
     }
     
 
+    .stages .cont {
+        flex-direction: column;
+    }
+    .stages .block_head {
+        max-width: 100%;
+        width: 100%;
+    }
+    .stages_items {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .stages_item-number {
+        font-weight: 700;
+        font-size: 40px;
+        margin-right: 12px;
+        padding-left: 27px;
+    }
 
 
     .benefits_section-img {
@@ -285,11 +302,6 @@
     }
 
 
-    .stages .block_head {
-        max-width: 400px;
-        width: 100%;
-        margin-top: 0;
-    }
     .stages_item-title {
         font-size: 26px;
         line-height: 30px;
