@@ -449,14 +449,12 @@
     }
     .stages_item-number {
         font-weight: 700;
-        font-size: 45px;
-        margin-right: 15px;
-        padding-left: 30px;
+        font-size: 40px;
+        margin-right: 12px;
+        padding-left: 27px;
     }
 
-    .callback .block_head .desc {
-        font-size: 20px;
-    }
+ 
     .callback_wrap {
         padding: 30px;
     }
@@ -472,10 +470,10 @@
     }
     .modes_item-left {
         padding-right: 0px;
-        padding-bottom: 15px;
+        padding-bottom: 20px;
         min-width: 100%;
         margin-right: 0px;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
     .modes_item-left:before {
         position: absolute;
@@ -488,11 +486,35 @@
         z-index: 5;
     }
 
+    .callback .block_head .desc .icon {
+        width: 28px;
+        height: 28px;
+        flex-shrink: 0;
+    }
+    .callback .block_head .desc span {
+        margin-left: 15px;
+        font-size: 17px;
+        margin-top: 0;
+        line-height: 28px;
+    }
+    .callback .block_head .desc {
+        line-height: 1.2;
+    }
+
+    .price_list li span {
+        line-height: 28px;
+    }
+
 
     .callback_btn {
         padding: 20px 45px;
     }
     
+
+    .modes_item .icon {
+        width: 70px;
+        height: 70px;
+    }
 
     .course_items > * {
         width: 530px;
@@ -521,6 +543,16 @@
         left: -20px;
     }
 
+    .advantages_item-title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 8px;
+    }
+    .stages_item-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
 
 
     .methods_items > * {
@@ -538,14 +570,82 @@
         height: 0;
         display: none;
     }
-    .methods_item-info {
-        padding: 20px;
-    }
     .methods_item-title {
         font-size: 25px;
         line-height: 30px;
     }
+    .methods_item {
+        padding: 20px;
+    }
+    .methods_items > * {
+        margin-left: 15px;
+    }
+    .methods_items {
+        margin-left: -15px;
+    }
+    .course_item-date span {
+        font-size: 15px;
+        margin-left: 7px;
+    }
+    .course .callback_btn {
+        width: 100%;
+        display: block;
+        padding: 20px;
+        margin-top: 0;
+    }
+    .course_item-text {
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .course_item-date {
+        margin-top: 10px;
+    }
+
+    .stages .block_head .title {
+        margin-bottom: 20px;
+    }
    
+
+
+    .invitation .cont {
+        flex-direction: column;
+    }
+    .invitation .block_head {
+        width: 100%;
+    }
+    .invitation_section-img {
+        width: 550px;
+        margin: 0 auto;
+    }
+    .invitation_section-img .bg {
+        width: 619px;
+        height: 497px;
+    }
+    .invitation .block_head .title {
+        line-height: 120%;
+        margin-bottom: 25px;
+    }
+    .invitation .block_head .title br {
+        display: none;
+    }
+
+
+    .advantages,
+    .why,
+    .lessons,
+    .avail,
+    .benefits,
+    .modes,
+    .price,
+    .stages,
+    .callback,
+    .course,
+    .invitation,
+    .methods {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 
 
     /*------------

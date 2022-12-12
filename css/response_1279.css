@@ -255,10 +255,11 @@
         margin-bottom: 15px;
     }
     .avail_item-title {
-        font-size: 24px;
-        line-height: 28px;
+        font-size: 25px;
+        line-height: 30px;
         margin-bottom: 9px;
     }
+    
 
 
 
@@ -330,6 +331,25 @@
     .modes_item-text {
         margin-top: 7px;
     }
+
+
+
+    .invitation_section-img {
+        width: 450px;
+    }
+    .invitation_section-img .bg {
+        width: 523px;
+        height: 418px;
+    }
+    .invitation .block_head {
+        width: calc(100% - 500px);
+    }
+
+    .advantages_item-info {
+        margin-left: 15px;
+        margin-top: 0;
+    }
+    
 
 
     /*------------

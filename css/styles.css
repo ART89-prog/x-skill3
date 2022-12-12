@@ -1298,7 +1298,6 @@ ul li .icon {
 
 .block_head.center {
     text-align: center;
-    margin-bottom: 74px;
 }
 .demonstration {
     padding-top: 70px;
@@ -1809,7 +1808,7 @@ img {
     position: absolute;
     content: "";
     width: 1px;
-    height: calc(100% + 35px);
+    height: calc(100% + 47px);
     background: #BCE01A;
     top: 50%;
     left: 10px;
@@ -2057,7 +2056,7 @@ img {
     width: 100%;
 }
 .invitation .block_head {
-    width: calc(100% - 950px);
+    width: calc(100% - 735px);
 
     display: flex;
     flex-direction: column;
@@ -2074,6 +2073,9 @@ img {
     width: 641px;
     max-width: 100%;
     position: relative;
+}
+.invitation_section-img img {
+    width: 100%;
 }
 .invitation_section-img .bg {
     position: absolute;

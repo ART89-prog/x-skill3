@@ -222,6 +222,13 @@
         padding-bottom: 70px;
     }
 
+    .stages {
+        margin-bottom: 0;
+    }
+    .callback {
+        padding-bottom: 0 !important;
+    }
+
 
     .why_items > * {
         padding: 20px;
