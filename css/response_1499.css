@@ -226,6 +226,9 @@
     .stages {
         margin-bottom: 0;
     }
+    .stages_item::after {
+        height: 160%;
+    }
     .callback {
         padding-bottom: 0 !important;
     }

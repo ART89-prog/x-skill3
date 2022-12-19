@@ -1785,7 +1785,7 @@ img {
     position: absolute;
     content: "";
     width: 4px;
-    height: 130%;
+    height: 140%;
     top: 0;
     left: 8px;
     background: #BCE01A;
@@ -1796,7 +1796,7 @@ img {
 }
 .stages_item {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     position: relative;
     margin-bottom: 30px;
 }
@@ -1806,11 +1806,12 @@ img {
 .stages_item-number {
     font-weight: 700;
     font-size: 70px;
-    line-height: 170%;
+    line-height: 1;
     text-align: center;
     color: #BCE01A;
     margin-right: 29px;
-    padding-left: 29px;    
+    padding-left: 29px; 
+    margin-top: -10px;   
 }
 .stages_item::before {
     position: absolute;
