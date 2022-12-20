@@ -175,23 +175,12 @@
     .first_section {
         padding: 150px 0 70px;
     }
-    .first_section-img:not(.bg) {
-        width: 400px;
-        margin-top: 0;
-    }
-    .first_section-img .bg {
-        width: 400px;
-        height: 380px;
-    }
-    .first_section-info {
-        width: calc(100% - 438px);
-    }
     .first_section-title {
         font-size: 42px;
         margin-bottom: 13px;
     }
     .first_section-subtitle {
-        font-size: 22px;
+        font-size: 20px;
         margin-bottom: 10px;
     }
     .first_section-text {

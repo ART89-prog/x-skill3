@@ -303,7 +303,8 @@
         display: none;
     }
     .first_section-img:not(.bg) {
-        width: 530px;
+        width: 400px;
+        margin-left: 0;
     }
     .first_section-img .bg {
         width: 530px;

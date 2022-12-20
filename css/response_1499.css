@@ -179,16 +179,23 @@
         First section
     -------------------*/
    
+    .first_section-info {
+        width: calc(100% - 540px);
+    }
+    .first_section-subtitle {
+        font-size: 24px;
+    }
+    .first_section-text {
+        font-size: 20px;
+    }
     .first_section-img:not(.bg) {
-        width: 540px;
-        margin-top: 0;
+        width: 390px;
+        margin-left: 70px;
     }
     .first_section-img .bg {
-        width: 540px;
-        height: 450px;
-    }
-    .first_section-info {
-        width: calc(100% - 605px);
+        width: 501px;
+        height: 638px;
+        left: -65px;
     }
 
 

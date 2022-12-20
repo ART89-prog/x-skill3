@@ -196,11 +196,12 @@
     -------------------*/
     
     .first_section-img:not(.bg) {
-        width: 100%;
+        width: 330px;
     }
     .first_section-img .bg {
-        width: 100%;
-        height: auto;
+        width: 405px;
+        height: 528px;
+        left: -30px;
     }
 
 
@@ -237,6 +238,7 @@
 
     .benefits_section-img {
         width: 390px;
+        height: auto;
     }
     .benefits_section-img .bg {
         width: 496px;
