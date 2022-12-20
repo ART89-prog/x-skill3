@@ -435,12 +435,15 @@
     }
     .stages_item:nth-child(3n+1) {
         margin-top: 0px;
+        margin-bottom: 20px;
     }
     .stages_item:nth-child(3n+2) {
         margin-top: 0px;
+        margin-bottom: 20px;
     }
     .stages_item:nth-child(3n+3) {
         margin-top: 0px;
+        margin-bottom: 20px;
     }
 
     .stages_item-title {
