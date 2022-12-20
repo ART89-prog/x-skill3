@@ -196,15 +196,23 @@
     }
 
 
-    .demonstration_item-info {
-        padding: 18px;
-    }
+
     .demonstration_item-title {
         font-weight: 700;
         font-size: 22px;
         line-height: 28px;
     }
-
+    .subscribe_text {
+        font-size: var(--font_size);        
+    }
+    .demonstration_subscribe {
+        padding: 20px;
+    }
+    .subscribe_title {
+        font-size: 22px;
+        line-height: 1.52;
+        margin-bottom: 4px;
+    }
 
     .lessons_img {
         width: 410px;
@@ -247,24 +255,7 @@
     }
     
 
-    .stages .cont {
-        flex-direction: column;
-    }
-    .stages .block_head {
-        max-width: 100%;
-        width: 100%;
-        margin-top: 0;
-    }
-    .stages_items {
-        margin-left: 0px;
-        width: 100%;
-    }
-    .stages_item-number {
-        font-weight: 700;
-        font-size: 40px;
-        margin-right: 12px;
-        padding-left: 27px;
-    }
+
 
 
     .benefits_section-img {
@@ -289,13 +280,6 @@
     }
 
 
-    .stages_item-title {
-        font-size: 26px;
-        line-height: 30px;
-    }
-    .stages_item-text {
-        font-size: 19px;
-    }
 
 
     .callback_form .line {

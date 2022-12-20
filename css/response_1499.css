@@ -228,15 +228,35 @@
         padding-bottom: 70px;
     }
 
-    .stages {
-        margin-bottom: 0;
-    }
-    .stages_item::after {
-        height: 160%;
-    }
+
+
+
     .callback {
         padding-bottom: 0 !important;
     }
+
+    .stages_items {
+        margin-left: -25px;
+        margin-bottom: -40px;
+    }
+    .stages_items > * {
+        width: calc(100%/3 - 25px);
+        margin-left: 25px;
+        margin-bottom: 40px;
+        padding: 20px;
+    }
+    .stages_item-info {
+        padding: 15px 0px 5px 0px;
+    }
+    .stages_item-title {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+    .stages_item-text {
+        font-size: var(--font_size);
+        margin-top: 12px;
+    }
+
 
 
     .why_items > * {
@@ -315,6 +335,55 @@
 
     .modes_item-title {
         font-size: 24px;
+    }
+
+
+
+    .demonstration_items {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .demonstration_items::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+        display: none;
+    }
+    .demonstration_item-title {
+        margin-bottom: 7px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .demonstration_item:nth-child(4) .video_link {
+        width: 298px;
+        flex-shrink: 0;
+        height: 451px;
+    }
+    .demonstration_item:nth-child(3) .video_link,
+    .demonstration_item:nth-child(5) .video_link {
+        width: 244px;
+        flex-shrink: 0;
+        height: 378px;
+        margin-top: 110px;
+    }
+    .demonstration_item:nth-child(2) .video_link,
+    .demonstration_item:nth-child(6) .video_link {
+        width: 212px;
+        flex-shrink: 0;
+        height: 321px;
+        margin-top: 30px;
+    }
+    .demonstration_item:nth-child(1) .video_link,
+    .demonstration_item:nth-child(7) .video_link {
+        width: 211px;
+        flex-shrink: 0;
+        height: 319px;
+        margin-top: 100px;
+    }
+
+    .demonstration_subscribe {
+        margin-top: 100px;
     }
 
 

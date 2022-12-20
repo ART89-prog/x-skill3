@@ -113,9 +113,6 @@
         First section
     -------------------*/
   
-    .demonstration_items > * {
-        width: 275px;
-    }
 
     .first_section-img:not(.bg) {
         width: 100%;
@@ -150,6 +147,15 @@
     .stages .callback_btn {
         max-width: 100%;
         width: 100%;
+    }
+    .stages_items {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+    .stages_items > * {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
     }
     .invitation .callback_btn {
         width: 100%;
