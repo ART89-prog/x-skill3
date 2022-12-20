@@ -218,7 +218,9 @@
     .callback,
     .course,
     .invitation,
-    .methods {
+    .methods,
+    .invite,
+    .scenario {
         padding-top: 70px;
         padding-bottom: 70px;
     }
@@ -274,6 +276,39 @@
     
 
 
+
+    .invite_right {
+        width: 560px;
+    }
+    .invite_box {
+        padding: 20px;
+    }
+    .invite_box-text {
+        font-size: 18px;
+        line-height: 170%;
+        padding-left: 20px;
+    }
+    .invite_right .bg {
+        top: -80px;
+        width: 479px;
+        height: 403px;
+    }
+    .invite_box-name {
+        font-size: 21px;
+    }
+    .invite_box-bottom {
+        margin-top: 30px;
+    }
+    .invite .block_head {
+        width: calc(100% - 600px);
+    }
+
+
+    .scenario_text {
+        font-size: 22px;
+        line-height: 160%;
+        margin-top: 20px;
+    }
 
 
 

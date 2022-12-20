@@ -420,4 +420,31 @@
         font-size: 17px;
         line-height: 23px;
     }
+
+
+    .scenario_text {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+    .scenario_img {
+        width: 520px;
+    }
+    .scenario_img img  {
+        width: 100%;
+    }
+    .scenario_img .bg {
+        width: 383px;
+        height: 376px;
+    }
+    .scenario_left {
+        width: calc(100% - 580px);
+    }
+    .scenario {
+        margin-top: 70px;
+    }
+
+
+
+    
 }

@@ -639,7 +639,9 @@
     .demonstration,
     .course,
     .invitation,
-    .methods {
+    .methods,
+    .scenario,
+    .invite {
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -708,4 +710,68 @@
 
         margin-top: 36px;
     }
+
+
+
+    .invite .cont {
+        flex-direction: column;
+    }
+    .invite .block_head {
+        width: 100%;
+    }
+    .invite_right {
+        width: 100%;
+    }
+    .invite_right .bg {
+        display: none;
+    }
+    .invite_box-text {
+        font-size: 17px;
+        line-height: 170%;
+        padding-left: 15px;
+    }
+    .invite_box-name {
+        font-size: 18px;
+    }
+    .invite_box-bottom {
+        margin-top: 15px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .invite_box-rating .icon {
+        margin-left: 0;
+        margin-right: 5px;
+    }
+    .invite_box-rating {
+        margin-top: 8px;
+    }
+
+
+    .scenario_wrap {
+        flex-direction: column;
+    }
+    .scenario_text {
+        font-size: 17px;
+        line-height: 25px;
+        width: 100%;
+        margin-top: 16px;
+    }
+    .scenario_left {
+        width: 100%;
+    }
+    .scenario_img {
+        width: 650px;
+        margin: 20px auto 0;        
+    }
+    .scenario_img .bg {
+        width: 477px;
+        height: 530px;
+    }
+    .scenario {
+        margin-top: 50px;
+    }
+
+
+
 }
