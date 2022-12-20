@@ -274,7 +274,7 @@
     -------------------*/
     
     .first_section-title {
-        font-size: 35px;
+        font-size: 34px;
         margin-bottom: 15px;
     }
     .first_section-subtitle {
@@ -532,8 +532,8 @@
     }
 
     .advantages_item-title {
-        font-size: 25px;
-        line-height: 30px;
+        font-size: 19px;
+        line-height: 1.5;
         margin-bottom: 8px;
     }
     .stages_item-title {
@@ -573,7 +573,7 @@
         margin-left: -15px;
     }
     .course_item-date span {
-        font-size: 17px;
+        font-size: var(--font_size);
         margin-left: 7px;
     }
     .course .callback_btn {

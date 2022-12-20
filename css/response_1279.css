@@ -333,7 +333,9 @@
         min-width: 360px;
         margin-right: 15px;
     }
-    .modes_item-title {
+    .modes_item-title,
+    .course_item-title,
+    .methods_item-title {
         font-size: 25px;
         line-height: 30px;
         margin-top: 10px;
@@ -341,7 +343,9 @@
     .modes_item-text {
         margin-top: 7px;
     }
-
+    .methods_item-info {
+        margin-top: 0;
+    }
 
 
     .invitation_section-img {
