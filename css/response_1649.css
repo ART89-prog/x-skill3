@@ -63,9 +63,7 @@
     .callback .block_head .title {
         font-size: var(--font_size_title);
     }
-    .callback .block_head .desc {
-        font-size: 25px;
-    }
+
 
 
 

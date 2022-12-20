@@ -6,7 +6,6 @@
     -------------------*/
     :root
     {
-        --font_size: 17px;
         --font_size_title: 36px;
     }
 
@@ -263,11 +262,9 @@
     .block_head .desc,
     .block_head.center .desc
     {
-        font-size: 17px;
-        line-height: 25px;
-
         width: 100%;
         margin-top: 16px;
+        line-height: 1.4;
     }
 
 
@@ -281,7 +278,7 @@
         margin-bottom: 15px;
     }
     .first_section-subtitle {
-        font-size: 21px;
+        font-size: 19px;
         margin-bottom: 10px;
     }
     .first_section-text {
@@ -478,9 +475,6 @@
     }
     .callback .block_head .desc span {
         margin-left: 15px;
-        font-size: 17px;
-        margin-top: 0;
-        line-height: 28px;
     }
     .callback .block_head .desc {
         line-height: 1.2;
@@ -543,8 +537,8 @@
         margin-bottom: 8px;
     }
     .stages_item-title {
-        font-size: 25px;
-        line-height: 30px;
+        font-size: 23px;
+        line-height: 1;
     }
 
 
@@ -726,12 +720,12 @@
         display: none;
     }
     .invite_box-text {
-        font-size: 17px;
-        line-height: 170%;
+        font-size: 15px;
+        line-height: 150%;
         padding-left: 15px;
     }
     .invite_box-name {
-        font-size: 18px;
+        font-size: 16px;
     }
     .invite_box-bottom {
         margin-top: 15px;
@@ -752,8 +746,6 @@
         flex-direction: column;
     }
     .scenario_text {
-        font-size: 17px;
-        line-height: 25px;
         width: 100%;
         margin-top: 16px;
     }

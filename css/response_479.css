@@ -82,11 +82,8 @@
     }
 
 
-    .block_head .desc,
-    .block_head.center .desc
-    {
-        font-size: 15px;
-        line-height: 23px;
+    ul li {
+        margin-bottom: 20px;
     }
 
 

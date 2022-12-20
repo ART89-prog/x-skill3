@@ -6,8 +6,8 @@
     -------------------*/
     :root
     {
-        --font_size: 19px;
-        --font_size_title: 38px;
+        --font_size: 15px;
+        --font_size_title: 40px;
     }
 
 
@@ -142,9 +142,6 @@
     .block_head .desc,
     .block_head.center .desc
     {
-        font-size: 19px;
-        line-height: 27px;
-
         width: 788px;
     }
 
@@ -194,11 +191,11 @@
         margin-bottom: 13px;
     }
     .first_section-subtitle {
-        font-size: 26px;
+        font-size: 22px;
         margin-bottom: 10px;
     }
     .first_section-text {
-        font-size: 21px;
+        font-size: 18px;
         margin-bottom: 17px;
     }
     .first_section .cont {
@@ -206,7 +203,7 @@
     }
 
     ul li {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
 
 
@@ -255,7 +252,7 @@
         margin-bottom: 15px;
     }
     .avail_item-title {
-        font-size: 25px;
+        font-size: 20px;
         line-height: 30px;
         margin-bottom: 9px;
     }
@@ -267,6 +264,7 @@
     .stages .block_head {
         max-width: 100%;
         width: 100%;
+        margin-top: 0;
     }
     .stages_items {
         margin-left: 0px;
@@ -422,10 +420,6 @@
     }
 
 
-    .scenario_text {
-        font-size: 19px;
-        line-height: 27px;
-    }
 
     .scenario_img {
         width: 520px;

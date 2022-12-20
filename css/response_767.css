@@ -167,12 +167,6 @@
     }
 
 
-    .block_head .desc,
-    .block_head.center .desc
-    {
-        font-size: 16px;
-        line-height: 24px;
-    }
 
 
 
@@ -265,16 +259,26 @@
         width: 100%;
     }
 
+    .demonstration .block_head .desc br {
+        display: none;
+    }
 
+
+    .first_section-subtitle {
+        font-size: 18px;
+    }
+
+    .first_section-text {
+        font-size: 16px;
+        margin-bottom: 13px;
+    }
     .advantages_item-title {
-        font-size: 20px;
-        line-height: 25px;
-        margin-bottom: 8px;
+        font-size: 16px;
     }
 
     .avail_item-title {
-        font-size: 20px;
-        line-height: 25px;
+        font-size: 17px;
+        line-height: 22px;
         margin-bottom: 8px;
     }
 
@@ -410,11 +414,6 @@
     }
 
 
-
-    .scenario_text {
-        font-size: 16px;
-        line-height: 24px;
-    }
 
     .scenario_img {
         width: 100%;
