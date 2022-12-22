@@ -265,6 +265,10 @@
         display: none;
     }
 
+
+    .demonstration-block_items > * {
+        width: 350px;
+    }
     .demonstration_subscribe {
         flex-wrap: wrap;
         align-items: flex-start;
@@ -411,6 +415,7 @@
     .stages,
     .callback,
     .demonstration,
+    .demonstration-block,
     .course,
     .invitation,
     .methods,

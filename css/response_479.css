@@ -169,6 +169,10 @@
         height: 25px;
     }
 
+    .demonstration-block_items > * {
+        width: 280px;
+    }
+
 
     .benefits_section-img {
         width: 315px;

@@ -339,6 +339,24 @@
     }
 
 
+    .demonstration-block_items {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        padding-bottom: 0px;        
+    }
+    .demonstration-block_items > * {
+        width: 530px;
+        flex-shrink: 0;  
+        box-shadow: none;  
+    }
+    .demonstration-block_items::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+        display: none;
+    }
+
     .demonstration_items {
         margin-left: -20px;
     }
@@ -640,6 +658,7 @@
     .stages,
     .callback,
     .demonstration,
+    .demonstration-block,
     .course,
     .invitation,
     .methods,
@@ -650,8 +669,28 @@
     }
 
     .course,
-    .methods {
+    .methods,
+    .demonstration-block {
         padding-bottom: 0;
+    }
+
+    .demonstration-block_title {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .demonstration-block_info {
+        padding: 15px;
+    }
+    .demonstration-block .video_link .icon {
+        width: 50px;
+        height: 50px;
+    }
+    .demonstration-block .video_link .icon svg {
+        width: 18px;
+        height: 23px;
+        margin-left: 5px;
     }
 
 
