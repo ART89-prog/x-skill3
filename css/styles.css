@@ -2440,7 +2440,7 @@ footer .copyright
 
 .modal {
     display: none;
-    max-width: 600px;
+    max-width: 480px;
     width: 100%;
     border-radius: 20px;
     padding: 30px;
